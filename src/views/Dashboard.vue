@@ -81,6 +81,7 @@
 						>
 							<label>{{ card.title }}</label>
 							<button
+                v-if="!card.deleted_at"
 								type="button"
 								class="btn-sm btn-close"
 								aria-label="Close"
